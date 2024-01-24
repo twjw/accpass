@@ -8,6 +8,13 @@
   <title>accpass</title>
 </head>
 <body>
+<!--
+加密規則：
+  base64 code 將尾字(=前第一個字)移到首字
+  example:
+    1. aJdws==(未加密) -> saJdw==(加密)
+    2. aJdws(未加密) -> saJdw(加密)
+-->
 <div id="app"></div>
 
 <style>
